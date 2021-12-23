@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta nombre="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador certificados Prakash x Agencia Gacela</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/favicon.png"/>
+</head>
+<body>
+
+    <header>
+        <div class="heading_text">
+            <h1>Aquí haces los certificados</h1>
+        </div>
+      
+    </header>
+    <main>
+        <div>
+            <input type="file" id="pdfFile" required accept=".pdf">
+            <input type="text" nombre="nombre" class="question" id="nombre" required autocomplete="off" />
+            <label for="nombre"><span>¿Cuál es el nombre y apellido?</span></label>
+            <input type="submit" id="submitBtn" value="Obtener el certificado"/>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./js/filesaver.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

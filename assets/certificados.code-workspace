@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../certificate_maker"
+		},
+		{
+			"name": "certificate_generator",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "certificate_generator"
+	}
+}

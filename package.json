@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-pdfgenerator",
+  "version": "1.0.0",
+  "description": "It is a pdf certificate genrator in nodejs.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "pdf",
+    "certificate",
+    "javascript"
+  ],
+  "author": "Hamza Imranist (https://imranist.me)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "multer": "^1.4.4"
+  }
+}
